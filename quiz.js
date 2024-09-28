@@ -95,7 +95,7 @@ const questions = {
         { question: "En quel moi de l'année 1916 commença le génocide Arménien", answer: "Avril" },
         { question: "En quel moi de l'année 1916 fini le génocide Arménien", answer: "Juillet" },
         { question: "Quand est-ce que l'Allemagne et la France signe l'Armistice de la 1ère Guerre Mondiale (donner dans le format JJ/MM/AAAA) ?", answer: "11/11/1918" },
-        { question: "Quand est-ce que la Russie se retire t-elle de la Grande Guerre (donner dans le format JJ/MM/AAAA) ?", answer: "15/12/1918" },
+        { question: "Quand est-ce que la Russie se retire t-elle de la Grande Guerre (donner dans le format JJ/MM/AAAA) ?", answer: "15/12/1917" },
     ],
     sciences: [
         { question: "De quoi est formée la matière ?", answer: "atome" },
@@ -187,7 +187,7 @@ const questions = {
         { question: "En quel moi de l'année 1916 commença le génocide Arménien", answer: "Avril" },
         { question: "En quel moi de l'année 1916 fini le génocide Arménien", answer: "Juillet" },
         { question: "Quand est-ce que l'Allemagne et la France signe l'Armistice de la 1ère Guerre Mondiale (donner dans le format JJ/MM/AAAA) ?", answer: "11/11/1918" },
-        { question: "Quand est-ce que la Russie se retire t-elle de la Grande Guerre (donner dans le format JJ/MM/AAAA) ?", answer: "15/12/1918" },
+        { question: "Quand est-ce que la Russie se retire t-elle de la Grande Guerre (donner dans le format JJ/MM/AAAA) ?", answer: "15/12/1917" },
 
     ]
 };
