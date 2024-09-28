@@ -111,7 +111,7 @@ const questions = {
         { question: "Quel est le nom du processus où un liquide devient un gaz ?", answer: "Evaporation" },
         { question: "Quel est le nom du processus où un gaz devient un liquide ?", answer: "Condensation" },
         { question: "Quel est le nom du processus où un solide se transforme directement en gaz ?", answer: "Sublimation" },
-        { question: "Quel est le nom du processus où un liquide passe à l'état solide ?", answer: "Congélation" },
+        { question: "Quel est le nom du processus où un liquide passe à l'état solide ?", answer: "Solidification" },
         { question: "Quel est l'état de la matière avec une forme définie et un volume défini ?", answer: "Solide" },
         { question: "Quelle est la température à laquelle l'eau gèle en degrés Celsius ?", answer: "0" },
         { question: "Quelle est la température à laquelle l'eau bout en degrés Celsius ?", answer: "100" },
