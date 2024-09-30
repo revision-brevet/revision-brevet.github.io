@@ -1,13 +1,5 @@
 const questions = {
     global: [
-        { question: "Quelle est la capitale de la France ?", answer: "Paris" },
-        { question: "Combien font 2 + 2 ?", answer: "4" },
-        { question: "Combien font 10 x 10 ?", answer: "100" },
-        { question: "Quelle est la racine carrée de 16 ?", answer: "4" },
-        { question: "Quel est le symbole chimique de l'eau ?", answer: "H2O" },
-        { question: "Quel est l'élément le plus léger ?", answer: "Hydrogène" },
-        { question: "Qui a été le premier empereur de France ?", answer: "Napoléon" },
-        { question: "En quelle année a commencé la Seconde Guerre mondiale ?", answer: "1939" },
         // Questions de maths
         { question: "Quelle est la valeur de x si 3x - 5 = 16 ?", answer: "7" },
         { question: "Un article coûte 80€ avec une réduction de 15 %. Quel est le prix après réduction ?", answer: "68" },
