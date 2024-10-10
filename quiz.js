@@ -79,7 +79,7 @@ const questions = {
         { question: "Quand a été assassiné l'héritier du trône austro-hongrois (donner dans le format JJ/MM/AAAA) ?", answer: "28/06/1914" },
         { question: "Quand est-ce que l'Allemagne a-t-elle déclaré la guerre (1GM) à la France (donner dans le format JJ/MM/AAAA) ?", answer: "03/08/1914" },
         { question: "En quoi étaient faits les lits des soldats dans les tranchées pendant la Première Guerre mondiale ?", answer: "Paille" },
-        { question: "Combien de millions d'hommes ont été mobilisés au début de la Grande Guerre ?", answer: "3" },
+        { question: "Combien de millions d'hommes ont été mobilisés durant la Grande Guerre ?", answer: "7,9" },
         { question: "Comment appelle-t-on les courtes pauses où les soldats ont le droit d'aller voir leur famille durant la Première Guerre mondiale ?", answer: "Permissions" },
         { question: "Quel général de la Seconde Guerre mondiale était un officier prisonnier pendant la Première Guerre mondiale ?", answer: "De Gaulle" },
         { question: "Quand est-ce que la bataille de Verdun a-t-elle débuté (donner dans le format JJ/MM/AAAA) ?", answer: "21/02/1916" },
