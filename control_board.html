@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Révision pour la Troisième</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <link rel="icon" type="image/png" href="icone.png">
+</head>
+<body>
+    <header>
+        <h1>Tableau de bord</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="button">Accueil</a></li>
+                <li><a href="control_board.html" class="button">Tableau de bord</a></li>
+                <li><a href="conseils.html" class="button">Conseils de Révision</a></li>
+                <li><a href="questions.html" class="button">Questions</a></li>
+                <li><a href="ressources.html" class="button">Ressources Utiles</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="presentation" class="center-content" data-aos="fade-up">
+            <h2>Tout ce que vous avez besoin, au même endroit ! </h2>
+            <h3>Manuels en ligne 📚</h3>
+            <a href="https://www.calameo.com/read/000596729a478266ce0b6" target="_blank" class="button">Physique-Chimie</a>
+            <a href="https://www.calameo.com/read/0005967297a387a131778" target="_blank" class="button">Histoire-Géographie</a>
+            <a href="https://mesmanuels.fr/acces-libre/9782016289990" target="_blank"class="button">Mathématiques</a>
+            <h3>Ecole directe 🏫</h3>
+            <a href="https://ecoledirecte.com" target="_blank" class="button">Ecole Directe</a>
+            <h3>Conseils pour se preparer au brevet 🎓</h3>
+            <a href="ressources.html" target="_blank" class="button">Ressources</a>
+            <a href="conseils.html" target="_blank" class="button">Conseils de revision</a>
+            <h3>Le Quiz 🔎</h3>
+            <a href="questions.html" target="_blank" class="button">Quiz de révision</a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024-2025 Révision pour le brevet. Tous droits réservés. Site développé par Emile B. & Elouan A. - Conseils de révision par Yannis M.T., Lucka G.D, Maxence M. & Jacques M.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        AOS.init();
+
+        $(document).ready(function(){
+            $('.carousel').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                slidesToShow: 1,
+                slidesToScroll: 1
+            });
+        });
+    </script>
+</body>
+</html>
