@@ -7,6 +7,15 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="icone.png">
+    <script>
+        document.addEventListener('contextmenu',function(e){e.preventDefault();e.stopPropagation();});
+        document.addEventListener('copie',function(e){e.preventDefault();e.stopPropagation();});
+        document.addEventListener('couper',function(e){e.preventDefault();e.stopPropagation();});
+    </script>
+    <style>
+        .jw-album-image img, .jw-element-image img { pointer-events: none; -webkit-touch-callout: none; }
+        .pswp_share-tooltip .pswp_share--download { affichage : aucun ; }
+    </style>
 </head>
 <body>
     <header>
