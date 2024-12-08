@@ -11,6 +11,15 @@
     <script type="text/javascript">
         (function(){const _0xe3fa=["f3444a82863ffec9cfc58127674f8c21b7d0868decf7180a6c6fb87554788b4f","Trop\x20de\x20tentatives.\x20Veuillez\x20réessayer\x20plus\x20tard.","index.html","Nombre\x20maximal\x20de\x20tentatives\x20atteint.","Accès\x20refusé.","prompt","Veuillez\x20entrer\x20le\x20mot\x20de\x20passe\x20pour\x20accéder\x20à\x20cette\x20page\x20:","addEventListener","DOMContentLoaded","apply"];let tentatives=0;const MAX_TENTATIVES=3;async function hacherTexte(_0x65cfx3){const _0x65cfx4=new TextEncoder(),_0x65cfx5=_0x65cfx4.encode(_0x65cfx3),_0x65cfx6=await crypto.subtle.digest("SHA-256",_0x65cfx5);return Array.from(new Uint8Array(_0x65cfx6)).map((_0x65cfx7)=>_0x65cfx7.toString(16).padStart(2,"0")).join("")}async function demanderMotDePasse(){if(tentatives>=MAX_TENTATIVES){alert(_0xe3fa[1]),window.location.href=_0xe3fa[2];return}const _0x65cfx9=window[_0xe3fa[5]][_0xe3fa[9]](window,_0xe3fa[6]);if(!_0x65cfx9){window.location.href=_0xe3fa[2];return}const _0x65cfxa=await hacherTexte(_0x65cfx9);_0x65cfxa!==_0xe3fa[0]&&(tentatives++,alert(_0xe3fa[4]),tentatives>=MAX_TENTATIVES&&(alert(_0xe3fa[3]),window.location.href=_0xe3fa[2]))}document[_0xe3fa[7]](_0xe3fa[8],demanderMotDePasse)})();
     </script>
+    <script>
+        document.addEventListener('contextmenu',function(e){e.preventDefault();e.stopPropagation();});
+        document.addEventListener('copie',function(e){e.preventDefault();e.stopPropagation();});
+        document.addEventListener('couper',function(e){e.preventDefault();e.stopPropagation();});
+    </script>
+    <style>
+        .jw-album-image img, .jw-element-image img { pointer-events: none; -webkit-touch-callout: none; }
+        .pswp_share-tooltip .pswp_share--download { affichage : aucun ; }
+    </style>
 </head>
 
 <body onload="demanderMotDePasse()">
