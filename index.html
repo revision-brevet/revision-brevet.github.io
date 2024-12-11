@@ -1,0 +1,125 @@
+<!-- © 2024 Révision pour le brevet. Tous droits réservés. Site développé par Emile B. & Elouan A. - Conseils de révision par Yannis M.T., Lucka G.D, Maxence M. & Jacques M. -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <script>
+        document.addEventListener('contextmenu',function(e){e.preventDefault();e.stopPropagation();});
+        document.addEventListener('copie',function(e){e.preventDefault();e.stopPropagation();});
+        document.addEventListener('couper',function(e){e.preventDefault();e.stopPropagation();});
+    </script>
+    <style>
+        .jw-album-image img, .jw-element-image img { pointer-events: none; -webkit-touch-callout: none; }
+        .pswp_share-tooltip .pswp_share--download { affichage : aucun ; }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ouverture d'Objectif Brevet</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="icone.png">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #000428, #004e92);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            perspective: 1000px;
+        }
+
+        #container {
+            text-align: center;
+            animation: fadeIn 2s ease-in-out, zoomOut 8s ease-out forwards;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            margin: 0;
+            background: linear-gradient(90deg, #fdbb2d, #22c1c3, #fdbb2d);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+            animation: glowOnce 3s ease-in-out forwards;
+        }
+
+        p {
+            font-size: 1.5rem;
+            margin-top: 20px;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .impact {
+            font-weight: 700;
+            font-size: 1.8rem;
+            color: #fdbb2d;
+            animation: slideUp 2s ease-out 0.5s forwards;
+            opacity: 0;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(100px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes glowOnce {
+            0% {
+                text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.6);
+            }
+            50% {
+                text-shadow: 2px 2px 20px rgba(255, 255, 255, 1);
+            }
+            100% {
+                text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.6);
+            }
+        }
+
+        @keyframes zoomOut {
+            90% {
+                opacity: 1;
+                transform: scale(1.2);
+            }
+            100% {
+                opacity: 0;
+                transform: scale(10);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Lancement Officiel 🎉</h1>
+        <p>Site développé par <span style="color: #0099ff;">Elouan A.</span> , <span style="color: #0099ff;">Emile B.</span> & <span style="color: #0099ff;">Jacques M.</span></p>
+        <p>Conseils de révision par <span style="color: #0099ff;">Yannis M.T.</span> , <span style="color: #0099ff;">Lucka G.D</span> & <span style="color: #0099ff;">Maxence M.</span></p>
+        <p>Bienvenue sur <span style="color: #0099ff;">Objectif Brevet</span> !</p>
+        <p>Merci de nous accorder votre confiance en utilisant notre site web !</p>
+        <div class="impact">Préparez-vous à atteindre vos objectifs !</div>
+    </div>
+
+    <script>
+        setTimeout(() => {
+            window.location.href = "index_v1.html";
+        }, 8000);
+    </script>
+</body>
+</html>
