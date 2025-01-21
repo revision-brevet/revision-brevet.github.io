@@ -1,0 +1,93 @@
+<!-- © 2025 Révision pour le brevet. Tous droits réservés. Site développé par Emile B. & Elouan A. - Conseils de révision par Yannis M.T., Lucka G.D, Maxence M. & Jacques M. -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Révision pour la Troisième</title>
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap">
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <link rel="icon" type="image/png" href="icone.png">
+    <script>
+        document.addEventListener('contextmenu',function(e){e.preventDefault();e.stopPropagation();});
+        document.addEventListener('copie',function(e){e.preventDefault();e.stopPropagation();});
+        document.addEventListener('couper',function(e){e.preventDefault();e.stopPropagation();});
+    </script>
+    <style>
+        .jw-album-image img, .jw-element-image img { pointer-events: none; -webkit-touch-callout: none; }
+        .pswp_share-tooltip .pswp_share--download { affichage : aucun ; }
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <h1>Tableau de bord</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="button">Accueil</a></li>
+                <li><a href="control_board.html" class="button">Tableau de bord</a></li>
+                <li><a href="conseils.html" class="button">Conseils de Révision</a></li>
+                <li><a href="questions.html" class="button">Questions</a></li>
+                <li><a href="ressources.html" class="button">Fiches Révision</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <section id="presentation" class="center-content" data-aos="fade-up">
+            <h2>Tous vos outils de révision, au même endroit !</h2>
+            
+            <!-- Manuels -->
+            <h3>Manuels en ligne 📚</h3>
+            <a href="https://www.calameo.com/read/000596729a478266ce0b6" target="_blank" class="button">Physique-Chimie</a>
+            <a href="https://www.calameo.com/read/0005967297a387a131778" target="_blank" class="button">Histoire-Géographie</a>
+            <a href="https://www.calameo.com/books/004822953e9f97b396a30" target="_blank" class="button">Mathématiques</a>
+            
+            <!-- École directe -->
+            <h3>École Directe 🏫</h3>
+            <a href="https://ecoledirecte.com" target="_blank" class="button">Accéder à École Directe</a>
+            
+            <!-- Conseils -->
+            <h3>Conseils pour se préparer au brevet 🎓</h3>
+            <a href="ressources.html" class="button">Ressources utiles</a>
+            <a href="conseils.html" class="button">Conseils de révision</a>
+            
+            <!-- Quiz -->
+            <h3>Le Quiz 🔎</h3>
+            <a href="questions.html" class="button">Quiz de révision</a>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="//www.dmca.com/Protection/Status.aspx?ID=9acbabf5-35ec-42b6-851d-2f06996bd8cd" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca_protected_sml_120n.png?ID=9acbabf5-35ec-42b6-851d-2f06996bd8cd"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+        <p>&copy; 2025 Révision pour le brevet. Tous droits réservés.</p>
+        <p>Site développé par Emile B. & Elouan A. - Conseils de révision par Yannis M.T., Lucka G.D., Maxence M. & Jacques M.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        // Animation on Scroll
+        AOS.init();
+
+        // Slick Carousel Initialization
+        $(document).ready(function() {
+            $('.carousel').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                slidesToShow: 1,
+                slidesToScroll: 1
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!-- © 2025 Révision pour le brevet. Tous droits réservés. Site développé par Emile B. & Elouan A. - Conseils de révision par Yannis M.T., Lucka G.D, Maxence M. & Jacques M. -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Révision pour la Troisième</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <link rel="icon" type="image/png" href="icone.png">
+    <script>
+        document.addEventListener('contextmenu',function(e){e.preventDefault();e.stopPropagation();});
+        document.addEventListener('copie',function(e){e.preventDefault();e.stopPropagation();});
+        document.addEventListener('couper',function(e){e.preventDefault();e.stopPropagation();});
+    </script>
+    <style>
+        .jw-album-image img, .jw-element-image img { pointer-events: none; -webkit-touch-callout: none; }
+        .pswp_share-tooltip .pswp_share--download { affichage : aucun ; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>OBJECTIF BREVET!</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="button">Accueil</a></li>
+                <li><a href="control_board.html" class="button">Tableau de bord</a></li>
+                <li><a href="conseils.html" class="button">Conseils de Révision</a></li>
+                <li><a href="questions.html" class="button">Questions</a></li>
+                <li><a href="ressources.html" class="button">Fiches Révision</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="presentation" class="center-content" data-aos="fade-up">
+            <h2>Infos</h2>
+            <p>Une première mise à jour a été effectuée, il y en aura d'autres dans les jours a venir.</p>
+        </section>
+
+        <section id="presentation" class="center-content" data-aos="fade-up">
+            <h2>À Propos de ce Site</h2>
+            <p>Ce site est conçu pour vous aider à réviser efficacement pour Le brevet. Nous ajouterons dès que nous le pourrons des ressources et des questions toute l'année</p>
+        </section>
+
+        <section id="presentation" class="center-content" data-aos="fade-up">
+            <h2>Contenu du site</h2>
+            <p>Sur ce site, vous trouverez de nombreux quiz et conseils pour réviser</p>
+        </section>
+
+        <section id="citation" class="center-content" data-aos="fade-up" data-aos-delay="400">
+            <h2>Motivation</h2>
+            <blockquote>
+                <p>“Etudie, non pour savoir plus, mais pour savoir mieux. ” • Sénèque</p>
+            </blockquote>
+        </section>
+    </main>
+
+    <footer>
+        <a href="//www.dmca.com/Protection/Status.aspx?ID=9acbabf5-35ec-42b6-851d-2f06996bd8cd" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca_protected_sml_120n.png?ID=9acbabf5-35ec-42b6-851d-2f06996bd8cd"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+        <p>&copy; 2025 Révision pour le brevet. Tous droits réservés. Site développé par Emile B. & Elouan A. - Conseils de révision par Yannis M.T., Lucka G.D, Maxence M. & Jacques M.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        AOS.init();
+
+        $(document).ready(function(){
+            $('.carousel').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                slidesToShow: 1,
+                slidesToScroll: 1
+            });
+        });
+
+        
+        let clickCount = 0;
+        const secretURL = atob('aGZncHRoYnZnZGpreC5odG1s'); 
+
+        document.getElementById('homeButton').addEventListener('click', function(event) {
+            // Empêcher le rechargement de la page par défaut sinon perte de temps et utilisation de la bande passante pour rien
+            event.preventDefault();
+
+            clickCount++;
+            if (clickCount === 5) {
+                window.location.href = secretURL;
+                clickCount = 0;
+            }
+
+            
+            setTimeout(function() {
+                clickCount = 0;
+            }, 2000);
+        });
+    </script>
+</body>
+</html>
